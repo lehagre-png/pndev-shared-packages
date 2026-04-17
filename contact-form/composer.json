@@ -1,0 +1,19 @@
+{
+    "name": "pndev/contact-form",
+    "description": "Shared contact form package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pndev\\ContactForm\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    }
+}
